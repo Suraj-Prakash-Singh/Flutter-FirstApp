@@ -8,12 +8,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Random Words Generator',
       // theme: ThemeData(
       //     appBarTheme: const AppBarTheme(
       //         backgroundColor: Colors.white, foregroundColor: Colors.black)),
-      home: const RandomWords(),
+      home: RandomWords(),
     );
   }
 }
